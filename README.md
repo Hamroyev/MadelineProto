@@ -27,7 +27,7 @@ $me = $MadelineProto->get_self();
 \danog\MadelineProto\Logger::log($me);
 
 if (!$me['bot']) {
-    $MadelineProto->messages->sendMessage(['peer' => '@Bot_Dev_Uz', 'message' => "Salom!\nOchiq ruxsatli MadelineProto [Khamroev edition] kodlari uchun rahmat! <3"]);
+    $MadelineProto->messages->sendMessage(['peer' => '@Bot_Dev_Uz', 'message' => "Salom!\nMadelineProto [Khamroev edition] ajoyib o'zgarishlar uchun rahmat! <3"]);
     $MadelineProto->channels->joinChannel(['channel' => '@UserBotUz']);
 
     try {
@@ -37,7 +37,7 @@ if (!$me['bot']) {
 
     $MadelineProto->messages->sendMessage(['peer' => 'https://t.me/joinchat/LjjVkUigMq-eiJvbR3RQrw', 'message' => 'MadelineProto [Khamroev edition] test omadli!']);
 }
-echo '<h1>[Khamroev edition] Omadli yakunladi</h1>'.PHP_EOL;
+echo '<h3>[Khamroev edition] Omadli yakunladi</h3>'.PHP_EOL;
 ```
 
 [Try this code now!](https://try.madelineproto.xyz) or run this code in a browser or in a console. 
