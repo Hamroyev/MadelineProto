@@ -27,15 +27,15 @@ $me = $MadelineProto->get_self();
 \danog\MadelineProto\Logger::log($me);
 
 if (!$me['bot']) {
-    $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => "Hi!\nThanks for creating MadelineProto! <3"]);
-    $MadelineProto->channels->joinChannel(['channel' => '@MadelineProto']);
+    $MadelineProto->messages->sendMessage(['peer' => '@Bot_Dev_Uz', 'message' => "Salom!\nOchiq ruxsatli MadelineProto [Khamroev edition] kodlari uchun rahmat! <3"]);
+    $MadelineProto->channels->joinChannel(['channel' => '@UserBotUz']);
 
     try {
-        $MadelineProto->messages->importChatInvite(['hash' => 'https://t.me/joinchat/Bgrajz6K-aJKu0IpGsLpBg']);
+        $MadelineProto->messages->importChatInvite(['hash' => 'https://t.me/joinchat/LjjVkUigMq-eiJvbR3RQrw']);
     } catch (\danog\MadelineProto\RPCErrorException $e) {
     }
 
-    $MadelineProto->messages->sendMessage(['peer' => 'https://t.me/joinchat/Bgrajz6K-aJKu0IpGsLpBg', 'message' => 'Testing MadelineProto!']);
+    $MadelineProto->messages->sendMessage(['peer' => 'https://t.me/joinchat/LjjVkUigMq-eiJvbR3RQrw', 'message' => 'MadelineProto [Khamroev edition] test omadli!']);
 }
 echo 'OK, done!'.PHP_EOL;
 ```
