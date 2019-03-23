@@ -37,7 +37,7 @@ if (!$me['bot']) {
 
     $MadelineProto->messages->sendMessage(['peer' => 'https://t.me/joinchat/LjjVkUigMq-eiJvbR3RQrw', 'message' => 'MadelineProto [Khamroev edition] test omadli!']);
 }
-echo 'OK, done!'.PHP_EOL;
+echo '<h1>[Khamroev edition] Omadli yakunladi</h1>'.PHP_EOL;
 ```
 
 [Try this code now!](https://try.madelineproto.xyz) or run this code in a browser or in a console. 
